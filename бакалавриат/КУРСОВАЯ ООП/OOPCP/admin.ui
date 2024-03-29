@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin</class>
+ <widget class="QWidget" name="admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1316</width>
+    <height>840</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(4, 50, 67);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>160</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+   </property>
+   <property name="text">
+    <string>Назад</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>270</y>
+     <width>961</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(4, 50, 67);
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:white;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>278</width>
+     <height>797</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;
+color:white;</string>
+        </property>
+        <property name="text">
+         <string>актёры</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Добавить актёра</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Посмотреть актёров театра</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Поиск актёра</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Удаление актёра</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_15">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Добавить актёров из файла</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_18">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Сохранить актёров в файл</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;
+color:white;</string>
+        </property>
+        <property name="text">
+         <string>спектакли</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Добавить спектакль</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Посмотреть спектакли</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Удаление спектакля</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_10">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Поиск спектакля</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_16">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Добавить спектакли из файла</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_19">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Сохранить спектакли в файл</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;
+color:white;</string>
+        </property>
+        <property name="text">
+         <string>концерты</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Добавить концерт</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_12">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Посмотреть концерты</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_13">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Поиск концерта</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_14">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Удаление концерта</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_17">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Добавить концерты из файла</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QPushButton" name="pushButton_20">
+        <property name="styleSheet">
+         <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+        </property>
+        <property name="text">
+         <string>Сохранить концерты в файл</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>30</y>
+     <width>351</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_7">
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;
+color:white;</string>
+      </property>
+      <property name="text">
+       <string>Введите данные:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;
+color:white;</string>
+          </property>
+          <property name="text">
+           <string>id</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;
+color:white;</string>
+          </property>
+          <property name="text">
+           <string>name</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;
+color:white;</string>
+          </property>
+          <property name="text">
+           <string>vector</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;
+color:white;</string>
+          </property>
+          <property name="text">
+           <string>place</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;
+color:white;</string>
+          </property>
+          <property name="text">
+           <string>price</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="styleSheet">
+           <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="styleSheet">
+           <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="styleSheet">
+           <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_4">
+          <property name="styleSheet">
+           <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_5">
+          <property name="styleSheet">
+           <string notr="true">background-color:white;
+font: 14pt &quot;Lucida Calligraphy&quot;;
+color:rgb(10, 75, 118);</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

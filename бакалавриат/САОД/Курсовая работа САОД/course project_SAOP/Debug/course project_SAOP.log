@@ -1,0 +1,12 @@
+﻿  Check.cpp
+C:\Users\Администратор\source\repos\course project_SAOP\course project_SAOP\Check.cpp(59,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Администратор\source\repos\course project_SAOP\course project_SAOP\Check.cpp(180,21): warning C4018: <: несоответствие типов со знаком и без знака
+  main.cpp
+C:\Users\Администратор\source\repos\course project_SAOP\course project_SAOP\main.cpp(173,31): warning C4101: nNumber: неиспользованная локальная переменная
+C:\Users\Администратор\source\repos\course project_SAOP\course project_SAOP\main.cpp(173,22): warning C4101: nSeries: неиспользованная локальная переменная
+C:\Users\Администратор\source\repos\course project_SAOP\course project_SAOP\main.cpp(696,7): warning C4101: bathroom: неиспользованная локальная переменная
+C:\Users\Администратор\source\repos\course project_SAOP\course project_SAOP\main.cpp(694,6): warning C4101: quantity: неиспользованная локальная переменная
+C:\Users\Администратор\source\repos\course project_SAOP\course project_SAOP\main.cpp(695,6): warning C4101: room: неиспользованная локальная переменная
+  Создание кода...
+C:\Users\Администратор\source\repos\course project_SAOP\course project_SAOP\main.cpp(1098): warning C4715: Dlist::clear: значение возвращается не при всех путях выполнения
+  course project_SAOP.vcxproj -> C:\Users\Администратор\source\repos\course project_SAOP\Debug\course project_SAOP.exe

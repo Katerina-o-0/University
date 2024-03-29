@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>653</width>
+    <height>739</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Приложение для моделирования</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(0, 85, 127)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>641</width>
+      <height>700</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Введите параметры модели </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="0">
+        <widget class="QLabel" name="for_c_2">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>c</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="for_w_2">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>omega</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLineEdit" name="for_x0">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;
+</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="for_a_2">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>a</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLineEdit" name="for_Umin">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="for_x_1">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>x*</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="for_b">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;
+</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLineEdit" name="for_s0">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="for_w">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="label_10">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>x(0)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLineEdit" name="for_Umax">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;
+</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLabel" name="label_11">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>u(0)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="for_x_">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="label_9">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>s(0)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="for_c">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="label_8">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>Umax</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLineEdit" name="for_u0">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;
+</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="for_b_2">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>b</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_7">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>Umin</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="for_a">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Для расчета модели с постоянной sigma</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_12">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>sigma</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="for_sigma">
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_count">
+       <property name="styleSheet">
+        <string notr="true">color:rgb(0, 0, 0);
+background:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Пояснение к параметрам модели</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>a, b, c - параметры модели, имеющие</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_14">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>фиксированное значение</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="for_b_3">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>omega  - параметр регулятора</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="for_x_2">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>x* - максимально заданный целевой </string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="for_b_4">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>уровень количества запасов на складе</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="for_x_3">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Umin - минимальное значение, при</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="for_b_5">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>котором осуществлялись поставки</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="for_x_4">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Umax - максимальная грузоподъёмность транспортного</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="for_x_5">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string> средства необходимого для доставки заказа</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="for_x_6">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>s(0) - величина спроса в нулевой момент времени</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="for_x_7">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>x(0) - количество запасов в начальный момент времени</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="for_x_8">
+         <property name="styleSheet">
+          <string notr="true">color:rgb(255, 255, 255);
+font: 75 14pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>u(0) - объём поставок в начальный момент времени</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
